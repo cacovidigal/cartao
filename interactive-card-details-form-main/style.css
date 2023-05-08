@@ -3,3 +3,10 @@ body{
     font-family: 500;
     font-family: 'Space Grotesk', sans-serif;
 }
+
+.card_conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
