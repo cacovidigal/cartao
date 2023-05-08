@@ -30,32 +30,40 @@
 
 <body>
 
-  <div class="card_conteiner">
-    <form action="http://127.0.0.1:5500/interactive-card-details-form-main/index.html">
-      <p>
-        <label>Cardholder Name</label>
-        <input type="cardholder" placeholder="Card holder's name">
-      </p>
-      <p>
-        <label>Card Number</label>
-        <input type="number" name="cardnumber" id="cardnumber" placeholder="0000 0000 0000 0000">
-      </p>
-      <p>
-        <label>Exp. Date (MM / YY)</label>
-        <input type="datetime" name="expirationdate" id="expirationdate" placeholder="MM / YY">
-      </p>
-      <p>
-        <label>CVC</label>
-        <input type="number" name="cvc" id="cvc" placeholder="000">
-      </p>
-      <p>
-        <input type="button" value="Confirm">
-      </p>
+  <nav>
 
-    </form>
-  </div>
 
-  <!--
+
+    <div class="parte_roxa">
+
+    </div>
+
+    <div class="card_conteiner">
+      <form action="http://127.0.0.1:5500/interactive-card-details-form-main/index.html">
+        <p>
+          <label class="cardholder_conteiner">Cardholder Name</label>
+          <input class="cardholder" type="cardholder" placeholder="Card holder's name">
+        </p>
+        <p>
+          <label class="cardnumber_conteiner">Card Number</label>
+          <input class="number" type="number" name="cardnumber" id="cardnumber" placeholder="0000 0000 0000 0000">
+        </p>
+        <p>
+          <label class="card_Exp_date_conteiner">Exp. Date (MM / YY)</label>
+          <input class="expirationdate" type="datetime" name="expirationdate" id="expirationdate" placeholder="MM / YY">
+        </p>
+        <p>
+          <label class="cvc_conteiner">CVC</label>
+          <input class="cvc_number" type="number" name="cvc" id="cvc" placeholder="000">
+        </p>
+        <p>
+          <input class="botao_confirm_conteiner" type="button" value="Confirm">
+        </p>
+
+      </form>
+    </div>
+
+    <!--
 
   <div class="cartao">
 
@@ -81,16 +89,16 @@
   Confirm
 -->
 
-  <!-- Completed state start -->
-
-  Thank you!
-  We've added your card details
-  Continue
-
-  </div>
-
+    <!-- Completed state start -->
+    <div>
+      Thank you!
+      We've added your card details
+      Continue
+    </div>
 
 
+
+  </nav>
 
 
   <div class="attribution">
