@@ -5,11 +5,7 @@ body{
     font-family: 'Space Grotesk', sans-serif;
 }
 
-nav{
-    display: flex;
-    flex-direction: column;
-    
-}
+
 
 .parte_roxa{
     
@@ -20,8 +16,33 @@ nav{
     background: #21092F;
 }
 
+.frente_do_cartao{
+    width: 18rem;
+    height: 9.8rem;
+    top: 7.8rem;
+    left: 1rem;
+    right: 0%;
+    bottom: 0.25%;
+    border: 50rem;
+    background: linear-gradient(163.95deg, #6348FE 4.74%, #610595 88.83%);
+    border-radius: 6px;
+}
+
+
+
+.card_master_conteiner{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
 
 .cardholder_conteiner{
+    display: flex;
+    flex-direction: column;
     width: 140px;
     height: 15px;
     font-weight: 500;
@@ -39,6 +60,8 @@ nav{
 }
 
 .cardnumber_conteiner{
+    display: flex;
+    flex-direction: column;
     width: 140px;
     height: 15px;
     font-weight: 500;
@@ -54,8 +77,13 @@ nav{
     height: 45px;
     top: 24px; 
 }
+.pai_data_cvc{
+    display: flex;
 
+}
 .card_Exp_date_conteiner{
+    display: flex;
+    flex-direction: column;
     width: 140px;
     height: 15px;
     font-weight: 500;
@@ -67,9 +95,14 @@ nav{
 }
 
 .expirationdate{
-    width: 327px;
-    height: 45px;
-    top: 24px;
+    width: 3.5rem;
+    height: 2.8rem;
+    top: 1.5rem;
+}
+.expirationdate_YY{
+    width: 3.5rem;
+    height: 2.8rem;
+    top: 1.5rem;
 }
 
 .cvc_conteiner{
@@ -83,17 +116,21 @@ nav{
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #21092F;
+    margin-left: 2rem;
+    
 }
 
 .cvc_number{
-    width: 327px;
-    height: 45px;
-    top: 24px;
-    margin-top: 0rem; 
+    width: 10.25rem;
+    height: 2.8rem;
+    top: 1.5rem;
+    margin-top: 0rem;
+    margin-left: 1.5rem; 
+    
 }
 
 .botao_confirm_conteiner{
-    width: 327px;
+    width: 21rem;
     height: 53px;
     left: 24px;
     top: 606px;
@@ -103,7 +140,8 @@ nav{
     font-size: 18px;
     border-radius: 0.5rem;
     border-style: none;
-    justify-content: center;
+    
+    margin-bottom: 3rem;
 }
 
 p{
